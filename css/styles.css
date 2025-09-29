@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  background-image: url("../Background/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.header {
+  height: 10vh;
+  background-color: powderblue;
+  text-align: center;
+  font-size: 8vh;
+  padding; 1vh;
+  border: 2px solid black;
+}
+
+.ground {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30vh;
+
+  /* image settings */
+  width: 100%;
+  /*background-color: #B7410E;*/
+  background-image: url("../Background/Mars.png");
+  background-size: cover;
+  background-position: left bottom;
+}
+
+
+.cat {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  width: 64px;
+  height: 64px;
+  z-index: 10;
+
+  
+}
+
+
+
+
+
+
+
+
+
